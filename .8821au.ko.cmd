@@ -1,0 +1,1 @@
+cmd_drivers/net/wireless/realtek/rtl8821au_rk/8821au.ko := arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/net/wireless/realtek/rtl8821au_rk/8821au.ko drivers/net/wireless/realtek/rtl8821au_rk/8821au.o drivers/net/wireless/realtek/rtl8821au_rk/8821au.mod.o ;  true
